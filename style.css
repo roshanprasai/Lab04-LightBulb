@@ -1,34 +1,40 @@
+/* Set base font and center all content on the page */
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background-color: #f7f7f7;
-  padding: 20px;
+  background-color: #928e8e;  /* Light gray background */
+  padding: 20px;              /* Space around content */
 }
 
+/* Container for the control elements (buttons, sliders) */
 .controls {
-  margin-bottom: 30px;
+  margin-bottom: 30px;        
 }
 
+/* Style for all labels to appear on their own line with spacing */
 label {
-  display: block;
-  margin-top: 15px;
+  display: block;            
+  margin-top: 15px;          
 }
 
+/* Style for all range sliders */
 input[type="range"] {
-  width: 200px;
+  width: 200px;               
 }
 
+/* Container around the bulb element */
 .bulb-container {
-  margin-top: 40px;
+  margin-top: 40px;           
 }
 
+/* The visual representation of the bulb */
 .bulb {
-  width: 100px;
-  height: 100px;
-  margin: auto;
-  border-radius: 50%;
-  background-color: yellow;
-  transition: all 0.3s ease;
-  filter: brightness(100%) saturate(100%);
-  box-shadow: 0 0 30px 10px yellow;
+  width: 100px;               
+  height: 100px;              
+  margin: auto;              
+  border-radius: 50%;         
+  background-color: rgba(255, 123, 0, 0.813);  
+  transition: all 0.3s ease; /* Smooth transition for visual changes */
+  filter: brightness(100%) saturate(100%); /* Default brightness and saturation */
+  box-shadow: 0 0 30px 10px rgb(11, 209, 97); /* Yellow glow effect around bulb */
 }
